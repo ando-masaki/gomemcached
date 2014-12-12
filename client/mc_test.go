@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dustin/gomemcached"
+	"github.com/ando-masaki/gomemcached"
 )
 
 func TestConnect(t *testing.T) {

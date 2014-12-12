@@ -8,7 +8,7 @@ import (
 	"log"
 	"math"
 
-	"github.com/dustin/gomemcached"
+	"github.com/ando-masaki/gomemcached"
 )
 
 // TAP protocol docs: <http://www.couchbase.com/wiki/display/couchbase/TAP+Protocol>

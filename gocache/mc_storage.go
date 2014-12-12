@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/binary"
-	"github.com/dustin/gomemcached"
+	"github.com/ando-masaki/gomemcached"
 	"log"
 )
 
