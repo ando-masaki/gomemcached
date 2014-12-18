@@ -226,6 +226,9 @@ func TestReceiveRequestNoContent(t *testing.T) {
 		Cas:     0,
 		Opaque:  7242,
 		VBucket: 824,
+		Extras:  []uint8{},
+		Key:     []uint8{},
+		Body:    []uint8{},
 	}
 
 	data := req.Bytes()
